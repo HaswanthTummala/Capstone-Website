@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project - Meet the Team</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="deliverables.html">Deliverables</a></li>
+                <li><a href="milestones.html">Milestones</a></li>
+                <li><a href="reports.html">Meeting Reports</a></li>
+                <li><a href="project.html">Project</a></li>
+            </ul>
+        </div>
+        <div class="hero">
+            <h1>Natural Language Processing to Motivate Expressive Language Development</h1><br>
+            <h4>Android Application</h4>
+        </div>
+    </nav>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+
+<br>
+<style>
+    /* Main Content */
+.para {
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+background: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+font-size: 22px;
+color: #333;
+}
+
+h5 {
+font-size: 16px;
+margin: 15px 0;
+color: #666;
+}
+
+strong {
+color: #333;
+}
+</style>
+      
+    <div class="para">
+        
+        <h3 aria-placeholder="Capstone">Natural Language Processing to Motivate Expressive Language Development</h3>
+        <br>
+        
+       <h5><strong>Introduction:</strong> Autism spectrum disorder (ASD), is a neurological and developmental disorder that impairs social 
+        communication and social interaction with varying levels of severity. Expressive visual supports that can vary from 
+        colored pictures to written words have been shown to help improve confidence and encourage independence, however, these tools
+         do not focus on developing natural language expression for the users. Combining the natural tendency of people with ASD to be
+          attracted to technology, and the ability for hand-held technology (tables, phones, etc.) to provide near-instantaneous feedback,
+           and thus gratification, from spoken input, a tool that promotes expressive language using hand-held technology is desired to be developed.</h5>
+
+
+        <h5><strong>Project:</strong> We will develop software that uses natural language processing to 
+        determine visual, audible, and tactile output for a tablet. The desired level of interaction is 
+        for children with ASD with limited expressive language skills. Initial development will be
+         for individually recognized words to develop the primary output.</h5>
+        
+        <br>
+        <h5><strong>Input:</strong> Audible dialog will be the primary means of gathering input for the desired output</h5>
+        
+        <br>
+       <h5><strong>Output:</strong> Digital representations of recognized spoken words, including appropriate auditory and tactile output.</h5>
+        
+         </p>
+    </div>
+    <footer></footer>
+</body>
+</html>

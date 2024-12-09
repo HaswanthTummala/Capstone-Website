@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASD APP- Capstone-Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="deliverables.html">Deliverables</a></li>
+                <li><a href="milestones.html">Milestones</a></li>
+                <li><a href="reports.html">Meeting Reports</a></li>
+                <li><a href="project.html">Project</a></li>
+            </ul>
+        </div>
+        <div class="hero">
+            <h1>Natural Language Processing to Motivate Expressive Language Development</h1><br>
+            <h4>Android Application</h4>
+        </div>
+    </nav>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+
+    <!-- Main Section -->
+    
+    <!-- Instructor Section -->
+    <section id="instructor" class="profile-section">
+      
+        <div class="profile-card">
+            <img src="images/bettayeb-said.jpg" alt="Instructor" class="profile-pic">
+            <h2>Dr. Said Bettayeb</h2>
+            <p class="title">Faculty Instructor</p>
+            <p>Email: bettayeb@uhcl.edu</p>
+            
+            <p>Professor of Computer Science and Computer Information Systems,
+                Science and Engineering</p>
+                
+        </div>
+        <div class="profile-card">
+            <img src="images/niswanger-ross.jpg" alt="Mentor" class="profile-pic">
+            <h2>Dr.Ross Niswanger</h2>
+            <p class="title">Project Mentor</p>
+            <p>Email: niswanger@uhcl.edu</p>
+            
+            <p>Professor of Computer Information Systems,
+                Science and Engineering</p>
+            <br>
+        </div>
+    </section>
+
+
+
+    <!-- Meet The Team Section -->
+    <section id="team" class="team-section">
+        <h2>Meet The Team</h2>
+        <div class="team-container">
+            <!-- Team Member 1 -->
+            <div class="team-member">
+                <img src="images/Haswanth.JPG" alt="Team Member 1" class="profile-pic">
+                <h2>Haswanth Tummala</h2>
+                <p class="title">--</p>
+                <p>Email: tummalah9790@uhcl.edu</p>
+                <p>Contact: 281-310-7289</p>
+                <p>Major: Computer Information Systems</p>
+                
+                
+            </div>
+            <!-- Team Member 2 -->
+            <div class="team-member">
+                <img src="images/poojitha.jpeg" alt="Team Member 2" class="profile-pic">
+                <h2>Sai Poojitha Velivelli</h2>
+                <p class="title">--</p>
+                <p>Email: velivellis9449@uhcl.edu</p>
+                <p>Contact: 346-490-0180</p>
+                <p>Major: Computer Science</p>
+            </div>
+            <!-- Team Member 3 -->
+            <div class="team-member">
+                <img src="images/laurance.jpg" alt="Team Member 3" class="profile-pic">
+                <h2>Laurance Nys A</h2><br>
+                <p class="title">--</p>
+                <p>Email: NysL6024@uhcl.edu</p>
+                <p>Contact: 281-975-7200</p>
+                <p>Major: Computer Science</p>
+            </div>
+            <!-- Team Member 4 -->
+            <div class="team-member">
+                <img src="images/Nikesh.jpeg" alt="Team Member 4" class="profile-pic">
+                <h2>Sri Nikesh Reddy Tamma</h2>
+                <p class="title">--</p>
+                <p>Email: TammaS7252@uhcl.edu</p>
+                <p>Contact: 346-490-5107</p>
+                <p>Major: Computer Science</p>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+
+</body>
+</html>

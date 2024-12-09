@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project - Meet the Team</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="deliverables.html">Deliverables</a></li>
+                <li><a href="milestones.html">Milestones</a></li>
+                <li><a href="reports.html">Meeting Reports</a></li>
+                <li><a href="project.html">Project</a></li>
+            </ul>
+        </div>
+        <div class="hero">
+            <h1>Natural Language Processing to Motivate Expressive Language Development</h1><br>
+            <h4>Android Application</h4>
+        </div>
+    </nav>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+    <style>
+        /* Profile Section */
+.profile-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+/* Profile Cards */
+.profile-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Ensures 3 cards per row */
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 200px; /* Ensures uniform height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .profile-card {
+        width: 45%; /* 2 cards per row on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-card {
+        width: 100%; /* 1 card per row on small screens */
+    }
+}
+    </style>
+    <section id="instructor" class="profile-section">
+        <div class="profile-card">
+            <h1>Abstract</h1>
+        <br>
+            <h3>
+                <a href="https://docs.google.com/document/d/1NCog6ZR5TR8C4P4Nxtw2l5SBefKdj1z5/edit?usp=sharing&ouid=109789170254070062023&rtpof=true&sd=true" target="_blank">
+                    Topics Source
+                </a>
+         
+        </div>
+   
+        <div class="profile-card">
+                    <h1>Mid Term Presentation PPT</h1>
+        <br>
+            <h3>
+                <a href="https://docs.google.com/presentation/d/1rz_zcuYH10Ak4Xp8ATmPNxjCjk72ZKk3/edit?usp=sharing&ouid=109789170254070062023&rtpof=true&sd=true" target="_blank">
+                    Topics Source
+                </a>
+         
+        </div>
+        <div class="profile-card">
+            <h1>Draft - Technical Document</h1>
+<br>
+    <h3>
+        <a href="https://drive.google.com/file/d/1iYwoXVWG1Q9TNvzqtCkks16OG8q8Rn3s/view?usp=sharing" target="_blank">
+            Topics Source
+        </a>
+ 
+</div>
+        
+        <footer></footer>
+    </body>
+    </html>
+    
